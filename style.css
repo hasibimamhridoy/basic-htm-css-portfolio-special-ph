@@ -1,0 +1,187 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+body{
+    padding: 0%;
+    margin: 0%;
+    border: 1px solid red;
+    max-width: 1200px;
+    margin: 0% auto;
+}
+
+.global-padding{
+    padding: 0% 60px;
+}
+
+
+/* nav start */
+
+nav{
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+#logoId{
+    color: green;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+ul a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul a:hover{
+    color: green;
+}
+
+/* nav end */
+
+
+.banner-container{
+    display: flex;
+    margin-top: 40px;
+}
+
+.banner-title{
+    width: 50%;
+}
+
+
+.banner-title h1{
+    padding-bottom: 20px;
+}
+
+.banner-title p{
+    padding-bottom: 20px;
+}
+
+.banner-image{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+
+#b-title{
+
+    font-size: 44px;
+}
+
+#b-desc{
+    color: gray;
+    font-size: 18px;
+}
+
+.resume-btn{
+    /* padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px; */
+    padding: 12px 30px;
+    background-color: #FF6464;
+    border: none;
+    color: white;
+}
+
+
+.resume-btn:hover{
+    background-color: #e11313;
+    cursor: pointer;
+}
+
+
+/* main start */
+
+.main-section{
+    background-color: #EDF7FA;
+    margin-top: 80px;
+}
+
+/* recent post */
+.recent-post-title-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+
+.post-container{
+    display: flex;
+    gap: 20px;
+}
+
+.recent-container{
+    padding: 50px 60px;
+}
+
+.post-one{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.post-one h1{
+    padding-bottom: 20px;
+}
+
+.post-two{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.post-two h1{
+    padding-bottom: 20px;
+}
+
+.post-desc{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* featured items  */
+
+.featured-container{
+    margin-top: 50px;
+}
+
+.featured-items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.f-one{
+    display: flex;
+    gap: 15px;
+}
+
+
+
+/* footer */
+
+footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.img{
+    text-align: center;
+}
+
+.img img{
+    margin-left: 10px;
+}
